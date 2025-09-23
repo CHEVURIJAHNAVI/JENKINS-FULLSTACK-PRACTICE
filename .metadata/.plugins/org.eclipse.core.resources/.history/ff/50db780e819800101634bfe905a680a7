@@ -1,0 +1,5 @@
+package com.klef.practice.repository;
+
+public class ReportRepository {
+
+}

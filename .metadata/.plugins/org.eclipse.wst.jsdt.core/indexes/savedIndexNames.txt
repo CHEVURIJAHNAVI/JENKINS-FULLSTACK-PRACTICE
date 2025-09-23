@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\CICD\3-1\PRACTICE\JENKINS-FULLSTACK-PRACTICE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2253973791.index
+2038690632.index
+3030672426.index
+1702078933.index
+2398313152.index
+731253181.index

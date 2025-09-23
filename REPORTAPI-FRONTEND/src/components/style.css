@@ -1,0 +1,151 @@
+body{
+  align-items:center;
+  justify-content: center;
+}
+
+
+.report-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #F8F9FA;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3 {
+  color: #fca709;
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btn-group {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 10px 8px 10px 0;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-blue {
+  background-color: #1E90FF;
+}
+
+.btn-blue:hover {
+  background-color: #157DEC;
+}
+
+.btn-green {
+  background-color: #2ECC71;
+}
+
+.btn-green:hover {
+  background-color: #28B463;
+}
+
+.btn-red {
+  background-color: #E74C3C;
+}
+
+.btn-red:hover {
+  background-color: #C0392B;
+}
+
+.btn-gray {
+  background-color: #95A5A6;
+}
+
+.btn-gray:hover {
+  background-color: #7F8C8D;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #E0E0E0;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #D6EAF8;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+pre {
+  background-color: #E8F6F3;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.message {
+  margin-top: 20px;
+  color: #E74C3C;
+  font-weight: 500;
+}
+
+.message-banner {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2ECC71;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  z-index: 1000;
+  text-align: center;
+  min-width: 300px;
+  max-width: 80%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.message-banner.error {
+  background-color: #E74C3C;
+}
+
+.message-banner.success {
+  background-color: #2ECC71;
+}
