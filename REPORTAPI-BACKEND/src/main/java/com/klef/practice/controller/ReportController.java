@@ -13,7 +13,7 @@ import com.klef.practice.service.ReportService;
 
 
 @RestController
-@RequestMapping("/reportapi")
+@RequestMapping("/ReportAPI")
 @CrossOrigin(origins = "*")
 public class ReportController {
 
