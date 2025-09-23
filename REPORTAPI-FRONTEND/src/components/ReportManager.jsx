@@ -20,7 +20,7 @@ const ReportManager = () => {
   const [message, setMessage] = useState('');
   const [editMode, setEditMode] = useState(false);
 
-  const baseUrl = `${config.url}/reportapi`;
+  const baseUrl = `${config.url}/ReportAPI`;
 
   useEffect(() => {
     fetchAllReports();
