@@ -1,5 +1,5 @@
 const config = {
-    url: "http://localhost:2030"
+    url: "http://localhost:2030/ReportAPI"
 }
 
 export default config;
