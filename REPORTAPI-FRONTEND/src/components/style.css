@@ -1,21 +1,23 @@
-body{
-  align-items:center;
+body {
+  background-color: #F4F6F8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
-
 
 .report-container {
   max-width: 1200px;
   margin: 40px auto;
   padding: 30px;
   border-radius: 12px;
-  background-color: #F8F9FA;
-  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFFFFF;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
 }
 
 h2, h3 {
-  color: #fca709;
+  color: #2C3E50; /* deep blue */
   margin-bottom: 10px;
 }
 
@@ -23,9 +25,12 @@ input, select, textarea {
   padding: 10px;
   margin: 8px 0;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #D1D5DB;
   border-radius: 6px;
   box-sizing: border-box;
+  font-size: 14px;
+  color: #2C3E50;
+  background-color: #FFFFFF;
 }
 
 textarea {
@@ -50,49 +55,54 @@ button {
   color: white;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
 }
 
+/* Primary button */
 .btn-blue {
-  background-color: #1E90FF;
+  background-color: #2C3E50; /* deep professional blue */
 }
 
 .btn-blue:hover {
-  background-color: #157DEC;
+  background-color: #1A252F;
 }
 
+/* Success */
 .btn-green {
-  background-color: #2ECC71;
+  background-color: #27AE60;
 }
 
 .btn-green:hover {
-  background-color: #28B463;
+  background-color: #1F8C4A;
 }
 
+/* Danger */
 .btn-red {
-  background-color: #E74C3C;
-}
-
-.btn-red:hover {
   background-color: #C0392B;
 }
 
+.btn-red:hover {
+  background-color: #922B21;
+}
+
+/* Secondary / Neutral */
 .btn-gray {
-  background-color: #95A5A6;
+  background-color: #7F8C8D;
 }
 
 .btn-gray:hover {
-  background-color: #7F8C8D;
+  background-color: #636E70;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
 }
 
 th, td {
@@ -100,11 +110,17 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #E0E0E0;
   vertical-align: middle;
+  font-size: 14px;
+  color: #2C3E50;
 }
 
 th {
-  background-color: #D6EAF8;
+  background-color: #ECF0F1; /* light gray header */
   font-weight: 600;
+}
+
+tr:hover {
+  background-color: #F1F3F6; /* subtle row hover */
 }
 
 .action-buttons {
@@ -113,16 +129,11 @@ th {
 }
 
 pre {
-  background-color: #E8F6F3;
+  background-color: #F9FAFB;
   padding: 10px;
   border-radius: 6px;
   overflow-x: auto;
-}
-
-.message {
-  margin-top: 20px;
-  color: #E74C3C;
-  font-weight: 500;
+  color: #2C3E50;
 }
 
 .message-banner {
@@ -130,7 +141,7 @@ pre {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #2ECC71;
+  background-color: #E67E22; /* accent orange */
   color: white;
   padding: 12px 24px;
   border-radius: 6px;
@@ -143,9 +154,9 @@ pre {
 }
 
 .message-banner.error {
-  background-color: #E74C3C;
+  background-color: #C0392B;
 }
 
 .message-banner.success {
-  background-color: #2ECC71;
+  background-color: #27AE60;
 }
